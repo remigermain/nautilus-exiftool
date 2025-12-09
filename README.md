@@ -3,10 +3,7 @@
 </center>
 
 <center>
-    <img src="images/header.jpg" style="border-radius: 10px" width="600px" />
-    <!-- <img src="images/1.png" width="300px" />
-    <img src="images/2.png" width="300px" />
-    <img src="images/3.png" width="300px" /> -->
+    <img src="images/header.jpg" />
 </center>
 
 
