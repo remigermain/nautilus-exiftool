@@ -1,6 +1,4 @@
-<center>
-<h1>Nautilus/Caja EXIF Viewer</h1>
-</center>
+<h1 align="center">Nautilus/Caja EXIF Viewer</h1>
 
 <center>
     <img src="images/header.jpg" />
