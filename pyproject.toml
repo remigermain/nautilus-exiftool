@@ -1,0 +1,16 @@
+[project]
+name = "nautilus_exiftool"
+dynamic = ["version"]
+description = "an extension for nautilus/caja, which adds all exif metadata from files"
+authors = [
+    {name = "Rémi Germain", email = "contact@germainremi.fr"},
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = [ "nautilus", "extension", "exif", "exiftool", "metadata", "gnome"]
+
+[tool.setuptools.data-files]
+"share/nautilus-python/extensions" = ["nautilus_exiftool/nautilus_exiftool.py"]
+"share/caja-python/extensions" = ["nautilus_exiftool/nautilus_exiftool.py"]
