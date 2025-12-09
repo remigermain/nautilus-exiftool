@@ -8,8 +8,15 @@ authors = [
 dependencies = []
 requires-python = ">=3.9"
 readme = "README.md"
-license = {file = "LICENSE"}
 keywords = [ "nautilus", "extension", "exif", "exiftool", "metadata", "gnome"]
+
+license = "MIT"
+license-files = [
+    "LICENSE",
+]
+
+[tool.setuptools]
+py-modules = ["nautilus_exiftool"]
 
 [tool.setuptools.data-files]
 "share/nautilus-python/extensions" = ["nautilus_exiftool/nautilus_exiftool.py"]
