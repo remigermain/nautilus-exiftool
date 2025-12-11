@@ -1,7 +1,7 @@
 <h1 align="center">Nautilus/Caja EXIF Viewer</h1>
 
 <center>
-    <img src="images/header.jpg" />
+    <img src="https://github.com/remigermain/nautilus-exiftool/blob/main/images/header.jpg?raw=true" />
 </center>
 
 
@@ -42,6 +42,17 @@ pip install nautilus_exiftool
 ```bash
 nautilus -q  # For Nautilus
 caja -q     # For Caja
+```
+
+## 📦 Maual Installation
+if your distro not suport system packages installation (this extentions can't be installed with pipx)
+```bash
+wget -qO- https://raw.githubusercontent.com/remigermain/nautilus-exiftool/refs/heads/main/install.sh | bash
+```
+for uninstall
+
+```bash
+rm -f ~/.local/share/nautilus-python/extensions/nautilus_exiftool.py ~/.local/share/caja-python/extensions/nautilus_exiftool.py
 ```
 
 
