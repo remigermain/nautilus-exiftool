@@ -49,7 +49,7 @@ caja -q     # For Caja
 ```
 
 ## 📦 Maual Installation
-if your distro not suport system packages installation (this extentions can't be installed with pipx)
+If your distro doesn’t support system‑package installation (these extensions can’t be installed with pipx)
 ```bash
 wget -qO- https://raw.githubusercontent.com/remigermain/nautilus-exiftool/refs/heads/main/install.sh | bash
 ```
