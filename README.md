@@ -37,6 +37,10 @@ sudo apt install python3-nautilus python3-caja exiftool
 ```bash
 pip install nautilus_exiftool
 ```
+if your distro don't want to installa systempackage, see manual installation or use flags `--break-system-packages`
+```bash
+pip install --break-system-packages nautilus_exiftool
+```
 
 ### 3. Restart Nautilus/Caja:
 ```bash
