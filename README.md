@@ -35,7 +35,7 @@ sudo apt install python3-nautilus python3-caja exiftool
 
 ### 2. install extension
 ```bash
-pip install nautils_exiftool
+pip install nautilus_exiftool
 ```
 
 ### 3. Restart Nautilus/Caja:
